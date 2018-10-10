@@ -8,6 +8,7 @@ header{
 }
 body{
   background-image: url("../resources/fondo.jpg");
+  height: 100%;
   margin: 0;
 }
 a{
@@ -21,12 +22,12 @@ article{
   padding: 5%;
   background-color: rgba(59, 107, 110, 0.1);
   border-radius: 5px;
-  height: 700px;
+  height: 600px;
 }
 footer{
   margin: 0 5%;
-  padding: 5%;
-  height: 40px;
+  padding: 25px;
+  height: 10px;
   background-color: rgba(32, 32, 32, 0.8);
 }
 hr{

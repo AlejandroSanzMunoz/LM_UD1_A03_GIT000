@@ -10,6 +10,7 @@ body{
   background-image: url("../resources/fondo.jpg");
   height: 100%;
   margin: 0;
+  min-width: 500px;
 }
 a{
   text-decoration: none;

@@ -23,7 +23,7 @@ article{
   padding: 5%;
   background-color: rgba(59, 107, 110, 0.1);
   border-radius: 5px;
-  height: 600px;
+  height: 100%;
 }
 footer{
   margin: 0 5%;
@@ -53,4 +53,27 @@ width: 200px;
 }.txtFooter{
   margin: 0;
   line-height: 20px;
+}
+.divEj{
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+  background-color: rgba(157, 157, 157, 0.4);
+  border-radius: 5px;
+  border: black solid 2px;
+}
+.imgEj{
+  height: 250px;
+}
+.titleEj{
+  border: black solid 2px;
+  margin: auto;
+  background-color: rgba(157, 157, 157, 0.4);
+  width: 800px;
+  border-radius: 5px;
+  padding: 2px;
+}
+.divGeneralEj{
+  margin: auto;
+  margin-top: 20px;
 }

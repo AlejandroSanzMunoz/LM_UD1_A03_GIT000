@@ -24,7 +24,7 @@
         </div>
     </header>
     <article>
-      <h4>Sobre nosotros</h4>
+      <h4>Contacto</h4>
       <div class="explicacion">
         <p>Bienvenido a Dynamic.</p>
         <p>Somos un portal gratuito de internet en el que podrás encontrar nuevos
@@ -36,36 +36,30 @@
       </div>
       <div class="explicacion">
         <h4>El equipo</h4>
-        <p>Carlos Rey. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Pellentesque in fermentum tellus, quis sodales purus. Etiam suscipit
-          lacus ligula. Ut ac turpis ex. Donec sapien lorem, blandit et lectus
-          vitae, iaculis dictum mi. Morbi quis est nulla. Nunc pharetra neque
-          enim, eu malesuada neque faucibus non.</p>
-          <p>Alejandro Sanz. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Pellentesque in fermentum tellus, quis sodales purus. Etiam
-            suscipit lacus ligula. Ut ac turpis ex. Donec sapien lorem, blandit
-            et lectus vitae, iaculis dictum mi. Morbi quis est nulla. Nunc
-            pharetra neque enim, eu malesuada neque faucibus non.</p>
+        <p>Carlos Rey. </br> carlos.rey@live.u-tad.com </br>658312568</p>
+          <p>Alejandro Sanz. </br> alejandro.sanz@live.u-tad.com</br>630167234</p>
       </div>
       <div id="imgMargenDiv">
-        <img id="imgMargen" src="./resources/empresa.png" alt="Equipo de Dynamic">
-      </div>
-      <!-- <div class="divGeneralEj">
-        <p class="titleEj">Título del Ej</p>
-        <div class="divEj">
-          <p class="txtEJ">Texto explicativo acerca del ejercicio JavaScript.</p>
-          <a class="aEj" href="#">Ver más</a><br>
-          <img class="imgEj" src="./resources/picture.png"/>
-        </div>
-      </div>
-      <div class="divGeneralEj">
-        <p class="titleEj">Título del Ej</p>
-        <div class="divEj">
-          <p class="txtEJ">Texto explicativo acerca del ejercicio JavaScript.</p>
-          <a class="aEj" href="#">Ver más</a><br>
-          <img class="imgEj" src="./resources/picture.png"/>
-        </div>
-      </div> -->
+        <div id="after_submit"></div>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <label class="required" for="name">Tu nombre:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="80" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">Tu Email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="80" /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Tu mensaje:</label><br />
+            <textarea id="message" class="input" name="message" rows="15" cols="75"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+
+            <input id="submit_button" type="submit" value="Enviar email" />
+        </form>      </div>
     </article>
     <footer>
       <p class="txtFooter">Carlos Rey | Alejandro Sanz</p>

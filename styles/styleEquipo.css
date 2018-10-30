@@ -1,0 +1,21 @@
+body{
+  min-width: 1150px;
+}
+#explicacionAll{
+  width: 200px;
+}
+.explicacion{
+  width: 450px;
+}
+.explicacion img{
+  height: 50px;
+}
+#imgMargen{
+  width: 400px;
+  margin-top: 0px;
+}
+#imgMargenDiv{
+  width: 400px;
+  margin-left: 50%;
+  margin-top: -400px;
+}
